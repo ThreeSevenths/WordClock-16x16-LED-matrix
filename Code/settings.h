@@ -126,8 +126,8 @@ const char* hostname = "WordClock";  // Hostname to be set in your router
 // ###########################################################################################################################################
 // # NTP time server settings:
 // ###########################################################################################################################################
-const char* Timezone = "CET-1CEST,M3.5.0,M10.5.0/3";  // You can check a list of timezone string variables here:  https://github.com/nayarsystems/posix_tz_db/blob/master/zones.csv
-const char* NTPserver = "pool.ntp.org";               // Time server address. Choose the closest one to you here: https://gist.github.com/mutin-sa/eea1c396b1e610a2da1e5550d94b0453
+const char* Timezone = "EST5EDT,M3.2.0,M11.1.0";  // You can check a list of timezone string variables here:  https://github.com/nayarsystems/posix_tz_db/blob/master/zones.csv
+const char* NTPserver = "ca.pool.ntp.org";               // Time server address. Choose the closest one to you here: https://gist.github.com/mutin-sa/eea1c396b1e610a2da1e5550d94b0453
 
 
 // ###########################################################################################################################################
